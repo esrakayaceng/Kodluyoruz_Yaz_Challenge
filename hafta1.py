@@ -20,12 +20,12 @@ def backtrack(numbers, target, start, path, combinations):
         path.pop()
 
 # Example usage
-size = int(input("Enter the size of the array: "))
-min = int(input("Enter the min value: "))
-max = int(input("Enter the max value: "))
+arr_size = int(input("Enter the size of the array: "))
+min_number = int(input("Enter the min value: "))
+max_number = int(input("Enter the max value: "))
 
 
-numbers = generate_random_numbers(size, min, max)
+numbers = generate_random_numbers(arr_size, min_number, man_number)
 print("Random sequence:", numbers)
 
 target_number = int(input("Enter target number:"))
